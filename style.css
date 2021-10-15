@@ -21,6 +21,10 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+h3 {
+  margin-top: 50px;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -59,8 +63,8 @@ textarea {
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   background-color: #06aed5;
   color: white;
 }
