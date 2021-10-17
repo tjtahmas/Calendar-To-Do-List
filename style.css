@@ -27,6 +27,11 @@ h3 {
 
 .description {
   white-space: pre-wrap;
+  color:#000000;
+}
+
+.description li{
+text-align: left;
 }
 
 .time-block {
