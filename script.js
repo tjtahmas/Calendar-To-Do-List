@@ -7,7 +7,7 @@
 
 function clock() {
     var today = moment();
-    today = today.add(14, 'h'); //Tester for different times of day
+    //today = today.add(14, 'h'); //Tester for different times of day
     //console.log(today);
     var currentTime = today.format('MMMM Do YYYY, h:mm:ss a');
     $('#timer').text(currentTime)
@@ -139,7 +139,7 @@ function getChars(event) { //Gets number of characters from textbox
     // console.log(newP.innerHTML);
     descrip.lastChild.remove();
     myStorage = window.localStorage;
-    
+
     descrip.appendChild(newP);
     inputSwitch = false;
 
